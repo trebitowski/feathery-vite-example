@@ -1,0 +1,23 @@
+{
+  "name": "@morf/feathery",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc -b",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.3.1"
+  },
+  "dependencies": {
+    "@feathery/react": "^2.4.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
